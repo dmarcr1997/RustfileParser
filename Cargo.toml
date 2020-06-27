@@ -1,9 +1,12 @@
 [package]
-name = "clapp"
+name = "clap-dont-use-test-crate"
 version = "0.1.0"
 authors = ["dmarc"]
 edition = "2018"
-
+license = "MIT"
+keywords = [ "Parse", "markdown"]
+repository = "https://github.com/dmarcr1997/RustfileParser"
+description = "Read a markdown file and return a parsed html file"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
